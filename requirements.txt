@@ -1,2 +1,4 @@
+lxml
 fastapi
 uvicorn
+python-dotenv
