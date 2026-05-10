@@ -9,4 +9,5 @@ Momo SMS data processing in XML format
 [View our Scrum Board here](https://github.com/users/EmnaBarezi/projects/1/views/1)
 
 ## Architecture Diagram
-This is the link to our diagram: https://drive.google.com/file/d/1c9AyHDupUvharSjmW2qEZHB549YRH7cF/view?usp=sharing
+
+<img width="661" height="281" alt="architecture_diagram" src="https://github.com/user-attachments/assets/d89cd02c-6681-489f-98da-39c871597f15" />
