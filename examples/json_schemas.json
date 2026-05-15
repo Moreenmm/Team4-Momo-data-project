@@ -1,0 +1,162 @@
+{
+  "note": "JSON Schemas for MoMo SMS Data Processing System - Team 4",
+  "mapping": "Each JSON object below represents one table in our SQL database",
+
+  "users": [
+    {
+      "user_id": 1,
+      "full_name": "Jean D Amour Mudaheranwa",
+      "phone_number": "250788****274",
+      "account_type": "personal",
+      "created_at": "2026-01-15 08:00:00"
+    },
+    {
+      "user_id": 2,
+      "full_name": "Valentin Niyokwizerwa",
+      "phone_number": "250792063314",
+      "account_type": "personal",
+      "created_at": "2026-02-20 10:30:00"
+    },
+    {
+      "user_id": 3,
+      "full_name": "Emna Barezi",
+      "phone_number": "250780000000",
+      "account_type": "personal",
+      "created_at": "2026-03-01 09:00:00"
+    }
+  ],
+
+  "transaction_categories": [
+    {
+      "category_id": 1,
+      "category_name": "incoming",
+      "description": "Money received from another MoMo user"
+    },
+    {
+      "category_id": 2,
+      "category_name": "outgoing",
+      "description": "Money sent to another MoMo user"
+    },
+    {
+      "category_id": 3,
+      "category_name": "airtime_payment",
+      "description": "Payment for airtime or data bundle"
+    },
+    {
+      "category_id": 4,
+      "category_name": "withdrawal",
+      "description": "Cash withdrawal from MoMo agent"
+    },
+    {
+      "category_id": 5,
+      "category_name": "bank_deposit",
+      "description": "Money transferred to bank account"
+    }
+  ],
+
+  "transactions": [
+    {
+      "transaction_id": "27846512104",
+      "type": "incoming",
+      "category_id": 1,
+      "sender_id": 1,
+      "receiver_id": 3,
+      "amount": 3000,
+      "fee": 0,
+      "currency": "RWF",
+      "balance_after": 3003,
+      "status": "completed",
+      "timestamp": "2026-05-11 12:31:50",
+      "message": null
+    },
+    {
+      "transaction_id": "27805517622",
+      "type": "outgoing",
+      "category_id": 2,
+      "sender_id": 3,
+      "receiver_id": 2,
+      "amount": 500,
+      "fee": 20,
+      "currency": "RWF",
+      "balance_after": 2483,
+      "status": "completed",
+      "timestamp": "2026-05-15 09:29:01",
+      "message": null
+    },
+    {
+      "transaction_id": "27846334048",
+      "type": "airtime_payment",
+      "category_id": 3,
+      "sender_id": 3,
+      "receiver_id": null,
+      "amount": 200,
+      "fee": 0,
+      "currency": "RWF",
+      "balance_after": 3,
+      "status": "completed",
+      "timestamp": "2026-05-11 12:23:01",
+      "message": null
+    }
+  ],
+
+  "system_logs": [
+    {
+      "log_id": 1,
+      "transaction_id": "27846512104",
+      "event": "transaction_processed",
+      "status": "success",
+      "message": "Transaction parsed and stored successfully",
+      "logged_at": "2026-05-11 12:31:52"
+    },
+    {
+      "log_id": 2,
+      "transaction_id": "27805517622",
+      "event": "transaction_processed",
+      "status": "success",
+      "message": "Transaction parsed and stored successfully",
+      "logged_at": "2026-05-15 09:29:03"
+    },
+    {
+      "log_id": 3,
+      "transaction_id": "27846334048",
+      "event": "transaction_processed",
+      "status": "success",
+      "message": "Transaction parsed and stored successfully",
+      "logged_at": "2026-05-11 12:23:05"
+    }
+  ],
+
+  "complex_transaction_example": {
+    "note": "This shows a complete transaction with all related data nested together - as it would appear in an API response",
+    "transaction_id": "27846512104",
+    "type": "incoming",
+    "amount": 3000,
+    "fee": 0,
+    "currency": "RWF",
+    "balance_after": 3003,
+    "status": "completed",
+    "timestamp": "2026-05-11 12:31:50",
+    "category": {
+      "category_id": 1,
+      "category_name": "incoming",
+      "description": "Money received from another MoMo user"
+    },
+    "sender": {
+      "user_id": 1,
+      "full_name": "Jean D Amour Mudaheranwa",
+      "phone_number": "250788****274"
+    },
+    "receiver": {
+      "user_id": 3,
+      "full_name": "Emna Barezi",
+      "phone_number": "250780000000"
+    },
+    "system_log": {
+      "log_id": 1,
+      "event": "transaction_processed",
+      "status": "success",
+      "message": "Transaction parsed and stored successfully",
+      "logged_at": "2026-05-11 12:31:52"
+    }
+  }
+}
