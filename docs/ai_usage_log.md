@@ -2,7 +2,7 @@
 
 ## Week 2 - Database Design and Implementation
 
-### Team Member: Emna Barezi
+### Team Member: Emna BarezI
 
 ---
 
@@ -10,8 +10,8 @@
 
 | Date | Tool Used | Task | How it was used |
 |------|-----------|------|-----------------|
-| 2026-05-15 | Claude (Anthropic) | JSON schema structure | Helped check JSON syntax and formatting |
-| 2026-05-15 | Claude (Anthropic) | Understanding JSON nesting | Explained how to nest related data in JSON |
+| 2026-05-15 | Claude | JSON schema structure | Helped check JSON syntax and formatting |
+| 2026-05-15 | JSON.org | Understanding JSON nesting | Explained how to nest related data in JSON |
 
 ---
 
