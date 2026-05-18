@@ -3,7 +3,7 @@ Momo SMS data processing in XML format
 
 ## Project Description
 A fullstack application that processes MTN MoMo SMS data in XML format,
-cleans and categorizes the transactions, stores them in a SQLite database,
+cleans and categorizes the transactions, stores them in a MySQL database,
 and displays them on a frontend dashboard.
 
 ## Team Members
@@ -25,11 +25,13 @@ and displays them on a frontend dashboard.
 ![Architecture Diagram](architecture_diagram.png)
 
 ## Database Design
-The database has 4 main tables:
-- Transactions — stores all MoMo transaction records
-- Users — stores sender and receiver information
-- Transaction_Categories — stores transaction types
-- System_Logs — tracks data processing events
+The database has 5 tables:
+
+Transactions: stores all MoMo transaction records
+Users: stores sender and receiver information
+Transaction_Categories: stores transaction types
+System_Logs: tracks data processing events
+Transaction_User_Links: links transactions to users (many to many)
 
 ## Scrum Board
 [View our Scrum Board here](https://github.com/users/EmnaBarezi/projects/1/views/1)
