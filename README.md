@@ -36,3 +36,5 @@ The database has 4 main tables:
 
 ## AI Usage
 See `docs/ai_usage_log.md` for details on AI tool usage.
+
+This is the link to our ERD DIAGRAM : https://drive.google.com/file/d/1ZNdQhfY_PDDCywt5a5F49js5UMI65qfJ/view?usp=sharing
