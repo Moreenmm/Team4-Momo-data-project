@@ -40,3 +40,50 @@ Transaction_User_Links: links transactions to users (many to many)
 See `docs/ai_usage_log.md` for details on AI tool usage.
 
 This is the link to our ERD DIAGRAM : https://drive.google.com/file/d/1ZNdQhfY_PDDCywt5a5F49js5UMI65qfJ/view?usp=sharing
+
+## REST API (Assignment 3)
+
+This assignment adds a secured REST API on top of the existing MoMo data project.
+
+### Requirements
+
+- Python 3.x (no extra libraries needed, uses built-in modules only)
+
+### How to Run the API Server
+
+1. Clone the repository:
+   git clone https://github.com/Moreenmm/Team4-Momo-data-project.git
+
+2. Navigate to the project folder:
+   cd Team4-Momo-data-project
+
+3. Run the API server:
+   python api/app.py
+
+4. The server will start at http://localhost:8000
+
+### How to Test the API
+
+Use curl or PowerShell to test the endpoints.
+
+Get all transactions:
+curl.exe -u admin:password123 http://localhost:8000/transactions
+
+Get one transaction:
+curl.exe -u admin:password123 http://localhost:8000/transactions/1
+
+Test wrong credentials:
+curl.exe -u wrong:wrong http://localhost:8000/transactions
+
+### How to Run the DSA Comparison
+
+python dsa/search.py
+
+### API Credentials
+
+Username: admin
+Password: password123
+
+### Screenshots
+
+All test screenshots are in the screenshots/ folder.
