@@ -1,7 +1,6 @@
 import time
 
-# Load some sample transaction IDs to search through
-# In a real scenario these would come from the parsed XML file
+# Sample transaction data, matching the records in our XML file
 transactions = [
     {"id": 1, "type": "incoming_money", "amount": 5000, "sender": "John Doe"},
     {"id": 2, "type": "payment", "amount": 2000, "sender": "You"},
@@ -46,15 +45,13 @@ def dictionary_lookup(lookup_dict, target_id):
 
 
 def compare_performance(target_id):
-    # Run both methods and measure how long each one takes
+    # Run both methods 10000 times and measure how long each one takes
 
-    # Test linear search
     start = time.perf_counter()
     for _ in range(10000):
         linear_search(transactions, target_id)
     linear_time = time.perf_counter() - start
 
-    # Build the dictionary once, then test lookups
     lookup_dict = build_dictionary(transactions)
     start = time.perf_counter()
     for _ in range(10000):
@@ -62,20 +59,22 @@ def compare_performance(target_id):
     dict_time = time.perf_counter() - start
 
     print(f"Searching for transaction ID: {target_id}")
-    print(f"Linear search time  (10,000 runs): {linear_time:.6f} seconds")
+    print(f"Linear search time     (10,000 runs): {linear_time:.6f} seconds")
     print(f"Dictionary lookup time (10,000 runs): {dict_time:.6f} seconds")
 
     if dict_time < linear_time:
-        print("Dictionary lookup was faster.")
+        print("Result: Dictionary lookup was faster.")
     else:
-        print("Linear search was faster.")
+        print("Result: Linear search was faster.")
+    print()
 
 
 if __name__ == "__main__":
-    # Test searching for a transaction near the end of the list (worst case for linear search)
+    # Test with ID near the end of the list, worst case for linear search
     compare_performance(target_id=20)
 
-    print()
-
-    # Test searching for a transaction in the middle
+    # Test with ID in the middle
     compare_performance(target_id=10)
+
+    # Test with ID at the beginning, best case for linear search
+    compare_performance(target_id=1)
