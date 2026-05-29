@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smses count="20">
+  <sms id="1" type="incoming_money" amount="5000" sender="John Doe" receiver="You" date="2024-01-15 08:30:00" body="You have received 5,000 RWF from John Doe. Your new balance is 25,000 RWF." status="completed"/>
+  <sms id="2" type="payment" amount="2000" sender="You" receiver="MTN" date="2024-01-15 09:00:00" body="Your payment of 2,000 RWF to MTN has been completed." status="completed"/>
+  <sms id="3" type="transfer" amount="10000" sender="You" receiver="Jane Smith" date="2024-01-15 10:15:00" body="You have transferred 10,000 RWF to Jane Smith." status="completed"/>
+  <sms id="4" type="incoming_money" amount="15000" sender="Alice Brown" receiver="You" date="2024-01-16 11:00:00" body="You have received 15,000 RWF from Alice Brown." status="completed"/>
+  <sms id="5" type="payment" amount="3000" sender="You" receiver="DSTV" date="2024-01-16 12:30:00" body="Your payment of 3,000 RWF to DSTV has been completed." status="completed"/>
+  <sms id="6" type="transfer" amount="7000" sender="You" receiver="Bob Wilson" date="2024-01-17 08:00:00" body="You have transferred 7,000 RWF to Bob Wilson." status="completed"/>
+  <sms id="7" type="incoming_money" amount="20000" sender="Carol Davis" receiver="You" date="2024-01-17 09:45:00" body="You have received 20,000 RWF from Carol Davis." status="completed"/>
+  <sms id="8" type="withdrawal" amount="8000" sender="You" receiver="ATM" date="2024-01-17 14:00:00" body="You have withdrawn 8,000 RWF from ATM." status="completed"/>
+  <sms id="9" type="payment" amount="1500" sender="You" receiver="Airtel" date="2024-01-18 07:30:00" body="Your payment of 1,500 RWF to Airtel has been completed." status="completed"/>
+  <sms id="10" type="transfer" amount="25000" sender="You" receiver="Eve Martinez" date="2024-01-18 10:00:00" body="You have transferred 25,000 RWF to Eve Martinez." status="completed"/>
+  <sms id="11" type="incoming_money" amount="12000" sender="Frank Lee" receiver="You" date="2024-01-19 08:15:00" body="You have received 12,000 RWF from Frank Lee." status="completed"/>
+  <sms id="12" type="payment" amount="5000" sender="You" receiver="REG" date="2024-01-19 11:30:00" body="Your payment of 5,000 RWF to REG has been completed." status="completed"/>
+  <sms id="13" type="transfer" amount="9000" sender="You" receiver="Grace Kim" date="2024-01-20 09:00:00" body="You have transferred 9,000 RWF to Grace Kim." status="completed"/>
+  <sms id="14" type="incoming_money" amount="30000" sender="Henry Chen" receiver="You" date="2024-01-20 13:00:00" body="You have received 30,000 RWF from Henry Chen." status="completed"/>
+  <sms id="15" type="withdrawal" amount="15000" sender="You" receiver="ATM" date="2024-01-21 10:30:00" body="You have withdrawn 15,000 RWF from ATM." status="completed"/>
+  <sms id="16" type="payment" amount="4000" sender="You" receiver="Electricity" date="2024-01-21 14:45:00" body="Your payment of 4,000 RWF to Electricity has been completed." status="completed"/>
+  <sms id="17" type="transfer" amount="6000" sender="You" receiver="Iris Johnson" date="2024-01-22 08:30:00" body="You have transferred 6,000 RWF to Iris Johnson." status="completed"/>
+  <sms id="18" type="incoming_money" amount="18000" sender="Jack Taylor" receiver="You" date="2024-01-22 11:00:00" body="You have received 18,000 RWF from Jack Taylor." status="completed"/>
+  <sms id="19" type="payment" amount="2500" sender="You" receiver="Water" date="2024-01-23 09:15:00" body="Your payment of 2,500 RWF to Water has been completed." status="completed"/>
+  <sms id="20" type="transfer" amount="11000" sender="You" receiver="Karen White" date="2024-01-23 15:00:00" body="You have transferred 11,000 RWF to Karen White." status="completed"/>
+</smses>
