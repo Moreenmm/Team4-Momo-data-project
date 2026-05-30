@@ -41,7 +41,9 @@ See `docs/ai_usage_log.md` for details on AI tool usage.
 
 This is the link to our ERD DIAGRAM : https://drive.google.com/file/d/1ZNdQhfY_PDDCywt5a5F49js5UMI65qfJ/view?usp=sharing
 
-## REST API (Assignment 3)
+The ERD dagram is also present in the docs file as a pdf named MoMo_ERD.drawio.pdf
+
+## REST API (ASSIGNMENT 3)
 
 This assignment adds a secured REST API on top of the existing MoMo data project.
 
@@ -76,7 +78,6 @@ Test wrong credentials:
 curl.exe -u wrong:wrong http://localhost:8000/transactions
 
 ### How to Run the DSA Comparison
-
 python dsa/search.py
 
 ### API Credentials
