@@ -31,7 +31,7 @@ Transactions: stores all MoMo transaction records
 Users: stores sender and receiver information
 Transaction_Categories: stores transaction types
 System_Logs: tracks data processing events
-Transaction_User_Links: links transactions to users (many to many)
+Transaction_User_Links: links transactions to users (Many to Many)
 
 ## Scrum Board
 [View our Scrum Board here](https://github.com/users/EmnaBarezi/projects/1/views/1)
