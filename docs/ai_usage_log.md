@@ -42,7 +42,8 @@ Any AI-assisted sections are marked with comments in the code files.
 
 
 ## Assignment 3 (REST API)
-### Team Member: Moreen Muthoni
+### Team Members: Moreen Muthoni
+                  Emna Barezi
 
 How AI was used:
 
@@ -51,4 +52,6 @@ How AI was used:
 | 25/5/2026 | XML Parsing | Help me parse an XML file containing mobile money transactions into JSON | We adapted the provided sample code to match our actual XML structure in the dataset.|
 |26/5/2026|Authentication|How can I implement Basic Authentication in Python?|Updated the generated functions and integrated authentication into all endpoints.| 
 |29/5/2026|DSA Comparison |Compare linear search and dictionary lookup in Python |With the provided samples we were able to run tests using project data and analyzed results. |
+
+AI was also used for debugging.
 
