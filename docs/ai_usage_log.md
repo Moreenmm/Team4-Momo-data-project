@@ -42,8 +42,7 @@ Any AI-assisted sections are marked with comments in the code files.
 
 
 ## Assignment 3 (REST API)
-### Team Members: Moreen Muthoni
-                  Emna Barezi
+### Team Members: Moreen Muthoni & Emna Barezi
 
 How AI was used:
 
