@@ -47,6 +47,10 @@ The ERD dagram is also present in the docs file as a pdf named MoMo_ERD.drawio.p
 
 This assignment adds a secured REST API on top of the existing MoMo data project.
 
+This project processes Mobile Money (MoMo) SMS transaction data from an XML dataset and exposes the records through a secured REST API built using Python.
+
+The API supports CRUD operations (Create, Read, Update, Delete), Basic Authentication, and includes a comparison of search algorithms as part of the Data Structures and Algorithms (DSA) component.
+
 ### Requirements
 
 - Python 3.x (no extra libraries needed, uses built-in modules only)
