@@ -8,7 +8,7 @@ and displays them on a frontend dashboard.
 
 ## Team Members
 - Moreen Muthoni Murugi
-- Emna Barezi
+- Emna Barezi - 
 
 ## Project Structure
 - `data/` — raw XML data and processed outputs

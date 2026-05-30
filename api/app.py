@@ -132,7 +132,7 @@ class APIHandler(http.server.BaseHTTPRequestHandler):
 
     def log_message(self, format, *args):
         print(f"Request: {args[0]} {args[1]}")
-
+        
 
 if __name__ == "__main__":
     server = http.server.HTTPServer(("localhost", 8000), APIHandler)

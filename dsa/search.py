@@ -70,11 +70,11 @@ def compare_performance(target_id):
 
 
 if __name__ == "__main__":
-    # Test with ID near the end of the list, worst case for linear search
+    #Test with ID near the end of the list, worst case for linear search
     compare_performance(target_id=20)
 
-    # Test with ID in the middle
+    #Test with ID in the middle
     compare_performance(target_id=10)
 
-    # Test with ID at the beginning, best case for linear search
+    #Test with ID at the beginning, best case for linear search
     compare_performance(target_id=1)
