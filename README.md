@@ -84,6 +84,7 @@ Test wrong credentials:
 curl.exe -u wrong:wrong http://localhost:8000/transactions
 
 ### How to Run the DSA Comparison
+
 python dsa/search.py
 
 ### API Credentials
