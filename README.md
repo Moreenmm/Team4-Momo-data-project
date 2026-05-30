@@ -7,8 +7,8 @@ cleans and categorizes the transactions, stores them in a MySQL database,
 and displays them on a frontend dashboard.
 
 ## Team Members
-- Moreen Muthoni Murugi
-- Emna Barezi - 
+- Moreen Muthoni Murugi - m.murugi@alustudent.com
+- Emna Barezi - e.barezi@alustudent.com
 
 ## Project Structure
 - `data/` — raw XML data and processed outputs
